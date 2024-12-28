@@ -1,5 +1,9 @@
 #pragma once
 
+#ifdef INIT_EE_HANDS_LEFT
+#define AZOTEQ_IQS5XX_ROTATION_180 true
+#endif
+
 #define I2C_DRIVER I2CD0
 #define I2C1_SDA_PIN GP16
 #define I2C1_SCL_PIN GP17
